@@ -1,0 +1,8 @@
+ssh_authorized_keys:
+  - ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDG05pWwDpl61ilRhsWsynV8+BW+3nqFpTiPG6/fukzIZPbZfgubEeRIDvomcSdqopF85968YP3KdHshMNes0kpNNWTGsG/Ozw68VAvRmolIqZb8RFSMCV/HJ+nk5wgV3y7f3PyWYogtxGSGiyrPuH9CT5/+SUs01re7zmqsHsxJ8019F0U7W2T4HjtdQ6Br2njhjGOBbi74UFWKAsalXXDdu7I5ayW6Bpx9NeP/RK2vC4FfI1XEDQN848BPZ+z2Sf/GvLpgTDprNo3LGGBwljx+fetZ6exzwkMVhayF2BjQTd3d/vTrwLF80y+J29wFabdLn5ZBqZ+0FUapDjfJ0o3 samson.nguyen,2013-08-23
+rancher:
+  resize_device: /dev/sda
+  network:
+    interfaces:
+      eth1:
+        dhcp: true
