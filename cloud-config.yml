@@ -15,3 +15,7 @@ rancher:
       - /opt:/opt
       - /var/lib/kubelet:/var/lib/kubelet
       - /etc/kubernetes:/etc/kubernetes 
+  services_include:
+    kernel-headers-system-docker: true
+    open-iscsi: true
+    qemu-guest-agent: true
