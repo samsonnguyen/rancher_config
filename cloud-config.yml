@@ -8,3 +8,10 @@ rancher:
     interfaces:
       eth0:
         dhcp: true
+  services:
+    user-volumes:
+      volumes:
+      - /home:/home
+      - /opt:/opt
+      - /var/lib/kubelet:/var/lib/kubelet
+      - /etc/kubernetes:/etc/kubernetes 
