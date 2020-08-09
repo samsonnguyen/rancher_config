@@ -19,3 +19,5 @@ rancher:
     kernel-headers-system-docker: true
     open-iscsi: true
     qemu-guest-agent: true
+  sysctl:
+    net.ipv4.ip_forward: 1
